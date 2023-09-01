@@ -53,6 +53,27 @@ section > h1{
 section > h2,p{
     margin: 10px;
 }
+#start{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+#comecar{
+    width: 300px;
+    border-radius: 30px;
+    padding: 9px;
+    background-color: white;
+    transition: background-color 0.3s ease;
+    
+}
+#comecar:hover{
+    background-color: rgb(0, 0, 0);
+    
+}
+#comecar p{
+    font-size: 17px;
+    color: #434ffc;
+}
 #continentes{
     display: flex;
     justify-content: center;
@@ -78,7 +99,7 @@ section > h2,p{
     
 }
 #europa{
-    background: linear-gradient(rgba(0, 0, 0, 0.151), rgba(0, 0, 0, 0.407)), url(../imagens/imgHome/pexels-pixabay-258117.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.373), rgba(0, 0, 0, 0.586)), url(../imagens/imgHome/europa2.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -87,3 +108,31 @@ section > h2,p{
     background-size: cover;
     background-position: center;
 }
+#asia{
+    background: linear-gradient(rgba(0, 0, 0, 0.373), rgba(0, 0, 0, 0.586)), url(../imagens/imgHome/asia.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#americanorte{
+    background: linear-gradient(rgba(0, 0, 0, 0.373), rgba(0, 0, 0, 0.586)), url(../imagens/imgHome/america-do-norte.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#africa{
+    background: linear-gradient(rgba(0, 0, 0, 0.373), rgba(0, 0, 0, 0.586)), url(../imagens/imgHome/africa.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#oceania{
+    background: linear-gradient(rgba(0, 0, 0, 0.373), rgba(0, 0, 0, 0.586)), url(../imagens/imgHome/oceania.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.cont{
+    transition: background 0.3s ease;
+}
+.cont:hover{
+    background: rgb(0, 0, 0) !important;
+    
+}
+
