@@ -131,6 +131,30 @@ section > p{
     background-position: center;
     background-color: black;
 }
+#argentina{
+    background: linear-gradient(rgba(0, 0, 0, 0.373), rgba(0, 0, 0, 0.586)), url(/projeto.trip/imagens/img-pg-america-sul/argentina-botao.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: black;
+}
+#colombia{
+    background: linear-gradient(rgba(0, 0, 0, 0.373), rgba(0, 0, 0, 0.586)), url(/projeto.trip/imagens/img-pg-america-sul/colombia-botao.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: black;
+}
+#chile{
+    background: linear-gradient(rgba(0, 0, 0, 0.373), rgba(0, 0, 0, 0.586)), url(/projeto.trip/imagens/img-pg-america-sul/chile-botao.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: black;
+}
+#peru{
+    background: linear-gradient(rgba(0, 0, 0, 0.373), rgba(0, 0, 0, 0.586)), url(/projeto.trip/imagens/img-pg-america-sul/peru-botao.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: black;
+}
 
 
 .cont{
