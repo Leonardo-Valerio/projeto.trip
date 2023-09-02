@@ -23,26 +23,54 @@ body{
     overflow-x: hidden;
 }
 nav{
-    display:flex;
-    justify-content: center;
-    height: 200px;
+
+    min-height: 200px;
     background: linear-gradient(rgba(0, 0, 0, 0.682), rgb(0, 0, 0)), url(../imagens/imgHome/montains.jpg);
     background-position: center;
     background-size: cover;
     
 }
-nav > ul{
+nav{
     display: flex;
-    list-style: none;
-    gap: 30px;
-    align-items: flex-end;
-    margin-bottom: 10px;
+    align-items: center;
+    flex-direction: row;
     
 }
-nav > ul > li >a{
-    color: var(--terceiro-azul);
-    text-decoration: none;
+nav .container{
+    display: flex;
+    align-items: center;
+    flex-grow:1 ;
+    color: white;
+    font-weight: lighter;
+    font-size: 2.5em;
+    width: 60%;
+    padding: 20px;
+    
+    
 }
+nav .link{
+    display: flex;
+    justify-content: center;
+    width: 40%;
+    margin-bottom: 5px;
+    text-decoration: none;
+    
+    
+}
+
+nav > .link > ul{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    list-style: none;}
+
+nav >.link > ul > li > a{
+    text-decoration: none;
+    color: var(--terceiro-azul);
+    
+}
+nav >.link > ul > li > a:hover{
+    color: white;}
 main{
     background-color: white;
     max-width: 470px;
@@ -74,7 +102,7 @@ section > p{
     text-align: center;
 }
 #comecar{
-    width: 300px;
+    max-width: 300px;
     border-radius: 30px;
     padding: 9px;
     background-color: white;

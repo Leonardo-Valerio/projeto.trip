@@ -19,35 +19,41 @@ html,body{
 body{
     overflow-x: hidden;
 }
-#menu-europa{
+
+
+nav{
     display: flex;
-    list-style: none;
-    height: 200px;
-    background: linear-gradient(rgba(0, 0, 0, 0.207), rgb(0, 0, 0)), url(/projeto.trip/imagens/imgHome/europa2.jpg);
-    background-position: center;
-    background-size: cover;
-    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
 }
-#menu-america-sul{
+nav .container{
     display: flex;
-    list-style: none;
-    height: 200px;
-    background: linear-gradient(rgba(0, 0, 0, 0.207), rgb(0, 0, 0)), url(/projeto.trip/imagens/imgHome/america-do-sul.jpg);
-    background-position: center;
-    background-size: cover;
+    align-items: center;
+    flex-grow:1 ;
+    color: white;
+    font-weight: lighter;
+    font-size: 2.5em;
+    
+    
+}
+nav .link{
+    display: flex;
     justify-content: center;
+    width: 100%;
+    margin-bottom: 5px;
+    text-decoration: none;
 }
 
-nav > ul{
-    display: flex;
-    list-style: none;
-    gap: 30px;
-    align-items: flex-end;
-    margin-bottom: 10px;
-}
-nav > ul > li > a{
+nav ul{
+    list-style: none;}
+
+nav >.link > ul > li > a{
     text-decoration: none;
     color: var(--terceiro-azul);
+}
+nav >.link > ul > li > a:hover{
+    color: white;
 }
 main{
     background-color: white;
@@ -95,66 +101,8 @@ section > p{
     color: white;
     
 }
-#italia{
-    background: linear-gradient(rgba(0, 0, 0, 0.373), rgba(0, 0, 0, 0.586)), url(/projeto.trip/imagens/img-pg-europa/italia-botao.jpg);
-    background-size: cover;
-    background-position: center;
-    background-color: black;
-}
-#espanha{
-    background: linear-gradient(rgba(0, 0, 0, 0.151), rgba(0, 0, 0, 0.407)), url(/projeto.trip/imagens/img-pg-europa/espanha-botao.jpg);
-    background-size: cover;
-    background-position: center;
-    background-color: black;
-}
-#portugal{
-    background: linear-gradient(rgba(0, 0, 0, 0.373), rgba(0, 0, 0, 0.586)), url(/projeto.trip/imagens/img-pg-europa/portugal-botao.jpg);
-    background-size: cover;
-    background-position: center;
-    background-color: black;
-}
-#franca{
-    background: linear-gradient(rgba(0, 0, 0, 0.373), rgba(0, 0, 0, 0.586)), url(/projeto.trip/imagens/img-pg-europa/franca-botao.jpg);
-    background-size: cover;
-    background-position: center;
-    background-color: black;
-}
-#uk{
-    background: linear-gradient(rgba(0, 0, 0, 0.373), rgba(0, 0, 0, 0.586)), url(/projeto.trip/imagens/img-pg-europa/uk-botao.jpg);
-    background-size: cover;
-    background-position: center;
-    background-color: black;
-}
-#brasil{
-    background: linear-gradient(rgba(0, 0, 0, 0.373), rgba(0, 0, 0, 0.586)), url(/projeto.trip/imagens/img-pg-america-sul/brasil.jpg);
-    background-size: cover;
-    background-position: center;
-    background-color: black;
-}
-#argentina{
-    background: linear-gradient(rgba(0, 0, 0, 0.373), rgba(0, 0, 0, 0.586)), url(/projeto.trip/imagens/img-pg-america-sul/argentina-botao.jpg);
-    background-size: cover;
-    background-position: center;
-    background-color: black;
-}
-#colombia{
-    background: linear-gradient(rgba(0, 0, 0, 0.373), rgba(0, 0, 0, 0.586)), url(/projeto.trip/imagens/img-pg-america-sul/colombia-botao.jpg);
-    background-size: cover;
-    background-position: center;
-    background-color: black;
-}
-#chile{
-    background: linear-gradient(rgba(0, 0, 0, 0.373), rgba(0, 0, 0, 0.586)), url(/projeto.trip/imagens/img-pg-america-sul/chile-botao.jpg);
-    background-size: cover;
-    background-position: center;
-    background-color: black;
-}
-#peru{
-    background: linear-gradient(rgba(0, 0, 0, 0.373), rgba(0, 0, 0, 0.586)), url(/projeto.trip/imagens/img-pg-america-sul/peru-botao.jpg);
-    background-size: cover;
-    background-position: center;
-    background-color: black;
-}
+
+
 
 
 .cont{

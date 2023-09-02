@@ -1,0 +1,40 @@
+.ft-menu{
+    display: flex;
+    list-style: none;
+    height: 200px;
+    background: linear-gradient(rgba(0, 0, 0, 0.207), rgb(0, 0, 0)), url(/projeto.trip/imagens/imgHome/europa2.jpg);
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+}
+
+#italia{
+    background: linear-gradient(rgba(0, 0, 0, 0.373), rgba(0, 0, 0, 0.586)), url(/projeto.trip/imagens/img-pg-europa/italia-botao.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: black;
+}
+#espanha{
+    background: linear-gradient(rgba(0, 0, 0, 0.151), rgba(0, 0, 0, 0.407)), url(/projeto.trip/imagens/img-pg-europa/espanha-botao.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: black;
+}
+#portugal{
+    background: linear-gradient(rgba(0, 0, 0, 0.373), rgba(0, 0, 0, 0.586)), url(/projeto.trip/imagens/img-pg-europa/portugal-botao.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: black;
+}
+#franca{
+    background: linear-gradient(rgba(0, 0, 0, 0.373), rgba(0, 0, 0, 0.586)), url(/projeto.trip/imagens/img-pg-europa/franca-botao.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: black;
+}
+#uk{
+    background: linear-gradient(rgba(0, 0, 0, 0.373), rgba(0, 0, 0, 0.586)), url(/projeto.trip/imagens/img-pg-europa/uk-botao.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: black;
+}

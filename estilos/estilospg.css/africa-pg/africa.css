@@ -1,0 +1,30 @@
+.ft-menu{
+    display: flex;
+    list-style: none;
+    height: 200px;
+    background: linear-gradient(rgba(0, 0, 0, 0.207), rgb(0, 0, 0)), url(/projeto.trip/imagens/imgHome/africa.jpg);
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+}
+#egito{
+    background: linear-gradient(rgba(0, 0, 0, 0.373), rgba(0, 0, 0, 0.586)), url(/projeto.trip/imagens/img-pg-africa/egito-botao.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: black;
+}
+#africa-sul{
+    background: linear-gradient(rgba(0, 0, 0, 0.373), rgba(0, 0, 0, 0.586)), url(/projeto.trip/imagens/img-pg-africa/africa-sul-botao.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: black;
+}
+#tanzania{
+    background: linear-gradient(rgba(0, 0, 0, 0.373), rgba(0, 0, 0, 0.586)), url(/projeto.trip/imagens/img-pg-africa/zanzibar-botao.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: black;
+}
+.paises{
+    height: 300px;
+}
