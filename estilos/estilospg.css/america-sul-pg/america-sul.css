@@ -9,6 +9,7 @@
 }
 nav .container{
     font-size: 1.8em;
+    width: 233px;
 }
 #brasil{
     background: linear-gradient(rgba(0, 0, 0, 0.373), rgba(0, 0, 0, 0.586)), url(/projeto.trip/imagens/img-pg-america-sul/brasil.jpg);
