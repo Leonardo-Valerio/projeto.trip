@@ -1,0 +1,33 @@
+.ft-menu{
+    display: flex;
+    list-style: none;
+    height: 200px;
+    background: linear-gradient(rgba(0, 0, 0, 0.207), rgb(0, 0, 0)), url(/projeto.trip/imagens/imgHome/asia.jpg);
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+}
+nav .container{
+    font-size: 1.8em;
+}
+#japao{
+    background: linear-gradient(rgba(0, 0, 0, 0.373), rgba(0, 0, 0, 0.586)), url(/projeto.trip/imagens/img-pg-asia/japao-botao.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: black;
+}
+#indonesia{
+    background: linear-gradient(rgba(0, 0, 0, 0.373), rgba(0, 0, 0, 0.586)), url(/projeto.trip/imagens/img-pg-asia/idonesia-botao.jpg);
+    background-size: cover;
+    background-position: bottom;
+    background-color: black;
+}
+#china{
+    background: linear-gradient(rgba(0, 0, 0, 0.373), rgba(0, 0, 0, 0.586)), url(/projeto.trip/imagens/img-pg-asia/china-botao.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: black;
+}
+.paises{
+    height: 300px;
+}

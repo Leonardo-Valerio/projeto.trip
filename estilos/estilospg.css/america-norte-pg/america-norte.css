@@ -1,0 +1,34 @@
+.ft-menu{
+    display: flex;
+    list-style: none;
+    height: 200px;
+    background: linear-gradient(rgba(0, 0, 0, 0.207), rgb(0, 0, 0)), url(/projeto.trip/imagens/imgHome/america-do-norte.jpg);
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+}
+nav .container{
+    font-size: 1.8em;
+    max-width:270px ;
+}
+#usa{
+    background: linear-gradient(rgba(0, 0, 0, 0.373), rgba(0, 0, 0, 0.586)), url(/projeto.trip/imagens/img-pg-america-norte/usa-botao.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: black;
+}
+#canada{
+    background: linear-gradient(rgba(0, 0, 0, 0.373), rgba(0, 0, 0, 0.586)), url(/projeto.trip/imagens/img-pg-america-norte/canada-botao.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: black;
+}
+#mexico{
+    background: linear-gradient(rgba(0, 0, 0, 0.373), rgba(0, 0, 0, 0.586)), url(/projeto.trip/imagens/img-pg-america-norte/mexico-botao.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: black;
+}
+.paises{
+    height: 300px;
+}
